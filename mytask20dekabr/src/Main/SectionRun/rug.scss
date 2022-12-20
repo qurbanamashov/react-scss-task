@@ -1,0 +1,27 @@
+.section_rug{
+    width: 100%;
+    padding: 100px 0;
+    h2{
+        text-align: center;
+        font-size: 40px;
+        margin-bottom: 40px;
+    }
+    .rug_flex{
+        max-width:1400px ;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        cursor: pointer;
+        &:hover p{
+            color: red;
+        }
+        .rug_card_box {
+            width: 32%;
+            height: 300px;
+            img{
+                width: 100%;
+                height: 240px;
+            }
+        }
+    }
+}

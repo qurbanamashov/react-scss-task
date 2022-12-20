@@ -1,0 +1,27 @@
+.section_reklam{
+    width: 100%;
+    .reklam{
+        max-width: 1520px;
+        width: 100%;
+        margin: 0 auto;
+        height: 80vh;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+@media screen and (max-width:1000px) {
+    .section_reklam{
+        .reklam{
+            max-width: 1520px;
+            width: 100%;
+            margin: 0 auto;
+            height: 120vh;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+}
